@@ -1,0 +1,107 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+#tab{
+    width: 360px;
+    height: 156px;
+    margin: 100px 0px 0px 100px;
+}
+
+/*头部*/
+#tab #tab-header{
+    height: 36px;
+    line-height: 36px;
+    /*border: 1px solid #dbdee1;*/
+}
+
+#tab-header ul{
+    width: 360px;
+
+}
+
+#tab-header ul li{
+    float: left;
+    width: 70px;
+    text-align: center;
+    background-color: #F7F7F7;
+    border-top: 1px solid #dbdee1;
+    border-right: 1px solid #dbdee1;
+    border-bottom: 1px solid #dbdee1;
+}
+
+#tab-header ul li:hover{
+    background-color: white;
+    border-top: 1px solid #dbdee1;
+    border-bottom: 0px;
+}
+
+#tab-header ul li.selected{
+    background-color: white;
+    border-left: 1px solid #dbdee1;
+    border-top: 1px solid #dbdee1;
+    border-bottom: 0px;
+}
+
+/*内容*/
+#tab-content{
+    padding-top: 10px;
+}
+
+#tab-content div{
+    padding: 10px 0px 1px 0px;
+}
+
+#tab-content div .icon{
+    float: left;
+    width: 105px;
+    height: 90px;
+    border: 1px solid #fff;
+}
+
+#tab-content div .icon img{
+    width: 105px;
+    height: 70px;
+}
+
+#tab-content div .icon span{
+    display: block;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#tab-content div ul{
+    float: left;
+    width: 220px;
+    height: 104px;
+    padding-left: 15px;
+    margin-top: -5px;
+    position: relative;
+}
+
+#tab-content div ul li{
+    float: left;
+    width: 220px;
+    padding-left: 10px;
+    line-height: 26px;
+    height: 26px;
+    font-size: 14px;
+    background: url(http://i0.sinaimg.cn/home/main/index2013/0403/icon.png) no-repeat 0 -881px;
+}
+
+#tab-content div ul li a{
+    height: 26px;
+    line-height: 26px;
+    width: 220px;
+    text-decoration: none;
+    font: 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+    color: #122E67;
+    font-size: 14px;
+}
