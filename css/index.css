@@ -36,12 +36,14 @@ ul{
 }
 
 #tab-header ul li:hover{
+    color: orangered;
+    cursor: pointer;
     background-color: white;
     border-top: 1px solid #dbdee1;
-    border-bottom: 0px;
+    font-weight: bolder;
 }
 
-#tab-header ul li.selected{
+#tab-header ul li.select{
     background-color: white;
     border-left: 1px solid #dbdee1;
     border-top: 1px solid #dbdee1;
@@ -54,6 +56,7 @@ ul{
 }
 
 #tab-content div{
+    display: none;
     padding: 10px 0px 1px 0px;
 }
 
@@ -104,4 +107,9 @@ ul{
     font: 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
     color: #122E67;
     font-size: 14px;
+}
+
+#tab-content div ul li a:hover{
+    color: orangered;
+    text-decoration: underline;
 }
